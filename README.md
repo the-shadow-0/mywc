@@ -6,14 +6,6 @@
 
 ---
 
-## Demo
-
-![demo-placeholder](assets/demo.gif)
-
-> Replace the demo GIF with a short terminal recording (4–8s) that shows compiling the program and running it on a few files.
-
----
-
 ## Highlights
 
 * ✅ Simple, portable C (ISO C11)
@@ -31,10 +23,8 @@
 2. [Build & install](#build--install)
 3. [Usage examples](#usage-examples)
 4. [Design notes](#design-notes)
-5. [Testing](#testing)
-6. [Contributing](#contributing)
-7. [Roadmap](#roadmap)
-8. [License](#license)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ---
 
@@ -43,7 +33,7 @@
 Clone and build:
 
 ```bash
-git clone https://github.com/<your-username>/mywc.git
+git clone https://github.com/the-shadow-0/mywc.git
 cd mywc
 gcc -std=c11 -O2 -o mywc mywc.c
 ```
@@ -111,21 +101,6 @@ sudo install -m755 mywc /usr/local/bin/mywc
 
 ---
 
-## Testing
-
-Add simple test files in `test/` and compare against the system `wc`:
-
-```bash
-# golden test
-./mywc test/small.txt > out1
-wc test/small.txt > out2
-diff -u out2 out1
-```
-
-Consider adding a GitHub Actions workflow to run these tests on push/pull requests.
-
----
-
 ## Contributing
 
 Contributions are welcome! Suggested workflow:
@@ -136,15 +111,6 @@ Contributions are welcome! Suggested workflow:
 4. Open a pull request with a clear description
 
 Please follow the repository's coding conventions. Add a `TODO.md` or issue for larger design changes.
-
----
-
-## Roadmap
-
-* [ ] `-m` / `--chars` mode that counts characters (multibyte-aware)
-* [ ] Add unit tests and CI (GitHub Actions)
-* [ ] Packaging / Homebrew formula or small Debian package
-* [ ] Optional `--json` output for downstream tooling
 
 ---
 
@@ -159,5 +125,3 @@ This project is released under the **MIT License** — see `LICENSE`.
 Inspired by the traditional UNIX `wc` utility and minimal C teaching examples. Contributions and improvements are appreciated!
 
 ---
-
-> Need this README tailored for a different repo name, a shorter "one-pager" version, or a README that includes CI and release badges? Tell me which variant you want and I’ll create it.
