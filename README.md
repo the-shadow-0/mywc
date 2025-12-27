@@ -122,6 +122,6 @@ This project is released under the **MIT License** — see `LICENSE`.
 
 ## Acknowledgements
 
-Inspired by the traditional UNIX `wc` utility and minimal C teaching examples. Contributions and improvements are appreciated!
+Inspired by the traditional LINUX `wc` utility and minimal C teaching examples. Contributions and improvements are appreciated!
 
 ---
