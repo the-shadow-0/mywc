@@ -1,4 +1,4 @@
-# mywc — A modern, lightweight `wc` replacement 
+# mywc — A modern, lightweight `wc` replacement
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Platform](https://img.shields.io/badge/platform-unix%2Flinux-lightgrey)
 
