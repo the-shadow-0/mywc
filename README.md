@@ -1,8 +1,13 @@
+<div align="center"> 
+
 # mywc — A modern, lightweight `wc` replacement
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Platform](https://img.shields.io/badge/platform-unix%2Flinux-lightgrey)
 
 > **mywc** — a small, fast, POSIX-friendly `wc` clone written in modern C. Works with files or `stdin`, supports `-l`, `-w` and `-c`, and is designed to be readable, testable and easy to extend.
+
+<br/>
+</div>
 
 ---
 
